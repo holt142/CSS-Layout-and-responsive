@@ -63,19 +63,18 @@ font-size: small;
 .numero{
     background-color: #1c253c;
     display:grid;
-    grid-template-columns: repeat(4,7em);
-    grid-template-rows: repeat(5,7em);
+    width: 30%;
+    height: 400px;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(5,auto);
     margin: 1%;
     padding:1%;
-    align-items: center;
-    justify-items: center;
     border-radius: 0.5em;
-    gap:0.1em;
+    gap:4%;
 }
 .white{
     background-color: white;
-    height:50% ;
-    width: 80%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,8 +85,6 @@ font-size: small;
     
 }
 .DEL{
-    height:50% ;
-    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,8 +98,6 @@ font-size: small;
 .reset{
     grid-area: 5/1/6/3 ;
     background-color: #647299;
-    height:50% ;
-    width: 93%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,8 +108,6 @@ font-size: small;
 .red{
     grid-area: 5/3/6/5;
     background-color: red;
-    height:50% ;
-    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
