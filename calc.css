@@ -11,7 +11,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 14em;
+    width: 25%;
 }
 header h1{
     color: white;
@@ -42,11 +42,15 @@ font-size: small;
 .theme1{
     background-color: #252D44;
 }
+.main{
+    width: 27%;
+}
+
 .main div{
     background-color: #181F32;
     border-radius: 0.5em;
     height: 5em;
-    width: 30em;
+   
     display: flex;
     align-items: center;
     justify-content: end;
@@ -63,7 +67,7 @@ font-size: small;
 .numero{
     background-color: #1c253c;
     display:grid;
-    width: 30%;
+    width: 25%;
     height: 400px;
     grid-template-columns: repeat(4,auto);
     grid-template-rows: repeat(5,auto);
@@ -116,4 +120,52 @@ font-size: small;
     font-family: "Rubik", sans-serif;   
 
 }
+@media screen and (max-width: 1440px) {
+    .numero{
+        width: 25%;
+    }
+    header{
+        width: 25%;
+    }
+    .main{
+        width: 27%;
+    }
+}
 
+@media screen and (max-width: 1024px) {
+    .numero{
+        width: 45%;
+    }
+    header{
+        width: 45%;
+    }
+    .main{
+        width: 45%;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .numero{
+        width: 60%;
+    }
+    header{
+        width: 60%;
+    }
+    .main{
+        width: 60%;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .numero{
+        width: 90%;
+    }
+    header{
+        width: 90%;
+    }
+    .main{
+        width: 90%;
+    }
+    
+
+}
